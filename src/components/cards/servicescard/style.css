@@ -1,0 +1,52 @@
+.service-card {
+  max-width: 270px;
+  width: 100%;
+  padding: 28px 16px;
+  border-radius: 12px;
+  border: 1px solid #e6e6e6;
+  background: #E6E6E6;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+}
+.service-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+h5.service-card-label,
+h4.service-card-title {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+h4.service-card-title{
+    font-weight: 600;
+}
+h5.service-card-label {
+  color: #1C208F;
+  font-weight: 600;
+}
+.service-card-title,
+.service-card-details {
+  color: #444444;
+}
+.service-card-body {
+    display: flex;
+    flex-direction: column;
+}
+.service-card-img {
+  width: 140px;
+  height: 140px;
+  margin: 3rem auto;
+}
+.service-card-img img {
+  width: 100%;
+  height: 100%;
+}
+.service-card-details {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}

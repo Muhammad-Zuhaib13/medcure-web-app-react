@@ -1,0 +1,218 @@
+@media only screen and (max-width: 1200px) {
+  .banner-right-container {
+    max-width: 500px;
+  }
+  .footer-ul-heading-wrapper {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  ul.main-nav-bar-menu {
+    display: none;
+  }
+  .top-menu {
+    display: block;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1199px) {
+  .services-card-container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .slider-wrapper {
+    width: 100%;
+  }
+  .search-doc-img {
+    max-width: 374px;
+  }
+  .appointment-img {
+    max-width: 322px;
+  }
+  .easy-payment-img {
+    max-width: 300px;
+  }
+  .lab-reports-img {
+    max-width: 283px;
+  }
+  .location-img {
+    max-width: 330px;
+  }
+  .chat-system-img {
+    max-width: 300px;
+  }
+  .search-doc-img,
+  .appointment-img,
+  .easy-payment-img,
+  .lab-reports-img,
+  .location-img,
+  .chat-system-img {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .cities-card-container {
+    justify-content: space-evenly;
+  }
+  .city-card {
+    max-width: 225px;
+  }
+  .health-resources-news-card-container {
+    justify-content: space-evenly;
+    gap: 2rem;
+  }
+  .health-news-img-card,
+  .health-news-card {
+    max-width: 230px;
+  }
+}
+@media only screen and (max-width: 894px) {
+  .search-doc-img {
+    max-width: 374px;
+  }
+  .appointment-img {
+    max-width: 322px;
+  }
+  .easy-payment-img {
+    max-width: 300px;
+  }
+  .lab-reports-img {
+    max-width: 283px;
+  }
+  .location-img {
+    max-width: 330px;
+  }
+  .chat-system-img {
+    max-width: 300px;
+  }
+  .search-doc-img,
+  .appointment-img,
+  .easy-payment-img,
+  .lab-reports-img,
+  .location-img,
+  .chat-system-img,
+  .location-img {
+    margin: 2rem auto;
+  }
+  .download-app-bg::before {
+    height: calc(100% - 10%);
+  }
+  .download-app-img {
+    max-width: 380px;
+    margin: 0 auto;
+    height: 385px;
+  }
+  .download-app-text-card {
+    padding: 0 1rem;
+  }
+  .desktop-view-btn {
+    display: none !important;
+  }
+  .mobile-view-btn {
+    display: block !important;
+    margin: 0 auto !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .banner-right-container {
+    max-width: 450px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .banner-heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .text-card-text-details {
+    padding: 2rem 0;
+  }
+  .health-resources-news-heading h3,
+  .datc-title,
+  .mobile-font-size {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .service-card {
+    max-width: 220px;
+  }
+  .services-card-container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .slider-wrapper {
+    width: 100%;
+  }
+  .health-news-img-card,
+  .health-news-card {
+    max-width: 100% !important;
+  }
+  .health-news-card {
+    flex-direction: row-reverse;
+    height: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .health-news-card-img {
+    max-width: 108px;
+    height: 108px;
+  }
+  .health-news-card-text {
+    padding: 0;
+    position: relative;
+  }
+  .health-news-card-text::before {
+    content: "New";
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #898989;
+    background-color: #efefef;
+    border-radius: 12px;
+    max-width: 60px;
+    width: 100%;
+    padding: 4px 0;
+  }
+  p.hnc-details-text,
+  p.hnc-img-label {
+    display: none;
+  }
+  .city-card {
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-direction: column;
+    max-width: 150px !important;
+    align-items: baseline;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .service-card {
+    max-width: 95%;
+  }
+  .services-card-container {
+    justify-content: center;
+  }
+  .banner-right-container {
+    max-width: 300px;
+  }
+  .slider-wrapper {
+    width: 100%;
+  }
+  .popular-cities-heading {
+    flex-direction: column;
+  }
+  .city-card {
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-direction: column;
+    max-width: 150px !important;
+    align-items: baseline;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .slider-wrapper {
+    width: 100%;
+  }
+}

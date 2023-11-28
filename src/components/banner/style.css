@@ -1,0 +1,36 @@
+.banner-container {
+  background-color: #f1f6f6;
+  display: flex;
+  justify-content: space-around;
+}
+.banner-left-container {
+  font-family: "Poppins", sans-serif;
+  margin-top: 3rem;
+}
+.banner-heading {
+  color: #404040;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.4px;
+}
+.banner-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #404040;
+}
+.banner-right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.banner-right-container img {
+  width: 100%;
+  height: auto;
+}
+
+

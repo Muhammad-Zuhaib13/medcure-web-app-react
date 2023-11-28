@@ -1,0 +1,31 @@
+.popular-cities-heading {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular-cities-heading h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #1d1d1d;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.popular-cities-heading h5 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #1c208f;
+}
+.cities-card-container {
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

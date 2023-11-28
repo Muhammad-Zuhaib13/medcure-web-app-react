@@ -1,0 +1,17 @@
+.features-heading-container{
+    width: 100%;
+    padding-bottom:2rem;  
+}
+.features-heading-container h2{
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+}
+.services-card-container{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+.top-listed-heading-container{
+    width: 100%;
+}
+.top-listed-heading-container h2{
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+}

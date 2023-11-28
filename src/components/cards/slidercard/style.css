@@ -1,0 +1,73 @@
+.slider-card-container {
+  max-width: 270px;
+  width: 100%;
+  height: auto;
+  background-color: #e6e6e6;
+  border-radius: 12px;
+  border: 0.5px solid #e6e6e6;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  padding: 14px 8px;
+  overflow: hidden;
+}
+.slider-card-img,
+.slider-card-heading,
+.slider-card-footer{
+  max-width: 246px;
+  width: 100%;
+  margin: 0 auto;
+}
+.slider-card-img img{
+  width: 100%;
+  height: auto;
+}
+.slider-card-heading{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.slider-card-label {
+  font-size: 14px;
+  /* font-weight: 500; */
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1c208f;
+}
+.slider-card-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2b2b2b;
+}
+.slider-card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.rating-reviews {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.rating-reviews span:nth-child(1) {
+  color: #1c208f;
+}
+.rating-reviews span:nth-child(2) {
+  color: #909090;
+}
+.doctor-fee {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1c208f;
+}

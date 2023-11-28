@@ -1,0 +1,44 @@
+.footer-accordion-container .footer-ul-heading-wrapper.social {
+  margin: 0;
+  gap: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  color:#444444;
+  margin-top: 12px;
+}
+.footer-accordion-container .footer-accordion {
+  border: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.footer-accordion::before{
+  display: none;
+}
+.footer-accordion-summary {
+  border: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+.footer-accordion-summary > .footer-ul {
+  padding: 0;
+}
+.footer-accordion-heading,
+.footer-heading {
+  font-family: "Poppins" !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
+  color:#444444;
+}
+
+.footer-accordion-details {
+  border: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+.footer-ul.footer-drawer{
+  padding: 0;
+}

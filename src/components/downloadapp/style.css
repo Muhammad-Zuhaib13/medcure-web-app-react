@@ -1,0 +1,53 @@
+.download-app-bg {
+  position: relative;
+  overflow: hidden;
+}
+.download-app-bg::before {
+  content: "";
+  position: absolute;
+  background-color: #e4f7fa;
+  border-radius: 20px;
+  width: 100%;
+  height: calc(100% - 20%);
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.download-app-img {
+  max-width: 544px;
+  width: 100%;
+  margin-left: auto;
+  height: 552px;
+  font-family: "Poppins", sans-serif;
+}
+.download-app-text-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: calc(100% - 85%);
+  overflow: hidden;
+}
+.datc-title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1c208f;
+  padding-bottom: 1rem;
+  margin-top: calc(100% - 80%);
+}
+.datc-details {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d1d1d;
+  padding-bottom: 3rem;
+}
+.mobile-view-btn{
+  display: none !important;
+}

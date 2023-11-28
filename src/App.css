@@ -1,0 +1,12 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+  color:#000;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow: hidden;
+}
